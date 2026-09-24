@@ -44,7 +44,7 @@ $$
 主軸 = 
 \begin{cases} 
 x & (|v_{x}| > |v_{y}|) \\
-y & (|v_{y}| < |v_{x}|) \\
+y & (|v_{x}| \leq |v_{t}|) \\
 x & (y_{distance} < d_{threshold}) \\
 y & (x_{distance} < d_{threshold})
 \end{cases}
